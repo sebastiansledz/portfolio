@@ -1,0 +1,220 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ml3 {
+    margin-left: 3px !important;
+}
+
+.mt20 {
+    margin-top:20px !important;
+}
+
+.mt60 {
+    margin-top: 60px !important;
+}
+.mt100 {
+    margin-top: 100px !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.mb30 {
+    margin-bottom:30px !important;
+}
+.mb50 {
+    margin-bottom:50px !important;
+}
+.mb40 {
+    margin-bottom:40px !important;
+}
+.mb60 {
+    margin-bottom:60px !important;
+}
+.span-icon img{
+    max-width: 40px;
+    transform: translateY(10px);
+    margin: 0 5px;
+}
+hr {
+    border-bottom:1px solid #A2A2A2;
+    margin:0 !important;
+}
+.with-love {
+    max-width:27px;
+    transform: translateY(4px);
+    padding: 0 3px;
+
+}
+.tech-icon img {
+    max-width: 30px;
+    min-width: 30px;
+    margin:0 auto;
+}
+.divider img{
+    width: 50%;
+}
+.vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .force-to-left {
+      text-align:left !important;
+  }
+  .hero-contact img {
+      max-width:80px;
+  }
+  .social-icons span {
+      padding: 20px !important;
+  }
+.hero .container .columns{
+    background-image: url(images/hero-home.jpg);
+    background-size: cover;
+    padding: 220px 0;
+    border-radius: 3px !important;
+  }
+
+  @media only screen and (max-width: 1187px) {
+    .hero .container  {
+      width: 100%;
+    }
+  }
+
+
+.masonry.gutterless {
+    column-gap: 0;
+}
+@media only screen and (min-width: 1024px) {
+.masonry {
+    column-count: 3;
+}
+}
+.masonry {
+    transition: all .5s ease-in-out;
+    column-gap: 30px;
+    column-fill: initial;
+}
+
+.masonry.gutterless .brick {
+    margin-bottom: 0;
+}
+
+.masonry .brick {
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.masonry .brick img {
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.gradient-box {
+    background: #66a3ff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #66a3ff 0%, #0047b3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #66a3ff 0%,#0047b3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #66a3ff 0%,#0047b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66a3ff', endColorstr='#0047b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
+  .form-box {
+    background: #0047b3;
+  }
+
+  .box {
+      border-radius: 3px !important;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+  }
+.mat-shadow {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
+  .button {
+      border-radius: 3px !important;
+  }
+ .textarea {
+      border-radius: 3px !important;
+      border: none;
+  }
+@media screen and (min-width: 1088px) {
+.navbar-dropdown { 
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    }
+}
+.txt-shadow {
+    text-shadow: 2px 2px 4px #333333;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #cccccc;
+}
+
+.subtitle {
+    line-height:28px;
+}
+.kicks {
+    max-width: 100px;
+    margin: auto;
+}
+.wwd-kick {
+    background-color: #5200cc;
+    color: #fff !important;
+}
+.doodle-kick {
+    background-color: #ff751a;
+    color: #fff !important;
+}
+.blog-kick {
+    background-color: #29a3a3;
+    color: #fff !important;
+}
+.doodle-kick .columns, .wwd-kick .columns, .blog-kick .columns {
+    padding: 0 20px;
+}
+.kick-title {
+    color:#ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.kick-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+}
+.kick-link {
+    color: #fff !important;
+    text-decoration: underline;
+}
+.kick-link:hover {
+    color: #fff !important;
+    text-decoration: underline;
+}
+.front-icons {
+    max-width:200px;
+    margin: 0 auto;
+}
+.navbar>.container {
+    max-width: 979.98px !important;
+}

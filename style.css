@@ -14,6 +14,10 @@ body {
     margin-top:20px !important;
 }
 
+.mt30 {
+    margin-top:30px !important;
+}
+
 .mt60 {
     margin-top: 60px !important;
 }
@@ -85,6 +89,13 @@ hr {
     border-radius: 3px !important;
     background-position: center;
   }
+
+  @media only screen and (max-width: 768px) {
+    .hero .container .columns{
+        padding: 150px 0;
+      }
+  }
+
 
   @media only screen and (max-width: 1187px) {
     .hero .container  {

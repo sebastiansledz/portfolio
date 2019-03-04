@@ -2,6 +2,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-brand .navbar-item img {
+    margin-left: 3px;
+}
+
 .ml3 {
     margin-left: 3px !important;
 }
@@ -152,7 +156,7 @@ hr {
     }
 }
 .txt-shadow {
-    text-shadow: 2px 2px 4px #969696;
+    text-shadow: 2px 2px 4px #838383;
 }
 
 ::-webkit-scrollbar {
@@ -217,5 +221,5 @@ hr {
     margin: 0 auto;
 }
 .navbar>.container {
-    max-width: 979.98px !important;
+    max-width: 966px !important;
 }

@@ -79,6 +79,7 @@ hr {
     background-size: cover;
     padding: 220px 0;
     border-radius: 3px !important;
+    background-position: center;
   }
 
   @media only screen and (max-width: 1187px) {
@@ -151,7 +152,7 @@ hr {
     }
 }
 .txt-shadow {
-    text-shadow: 2px 2px 4px #333333;
+    text-shadow: 2px 2px 4px #969696;
 }
 
 ::-webkit-scrollbar {

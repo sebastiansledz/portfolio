@@ -3,5 +3,5 @@
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
-    Content-Security-Policy: script-src 'self' *.cloudfront.net *.fontawesome.com; style-src 'self' *.cloudfront.net *.googleapis.com *.cloudflare.com 'sha256-zJDyuABAg68wtWDFyIh+RRe+6Vm/r+BLwaNRCGNVyXI='; default-src 'self' *.cloudfront.net *.googleapis.com fonts.gstatic.com
+    Content-Security-Policy: script-src 'self' *.cloudfront.net *.fontawesome.com *.cloudflare.com; style-src 'self' *.cloudfront.net *.googleapis.com *.cloudflare.com 'sha256-zJDyuABAg68wtWDFyIh+RRe+6Vm/r+BLwaNRCGNVyXI='; default-src 'self' *.cloudfront.net *.googleapis.com fonts.gstatic.com
     Referrer-Policy: no-referrer

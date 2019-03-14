@@ -1,0 +1,7 @@
+/*
+    Cache-Control: max-age=2592000
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1; mode=block
+    X-Content-Type-Options: nosniff
+    Content-Security-Policy: script-src 'self' *.cloudfront.net; style-src 'self' *.cloudfront.net *.googleapis.com 'sha256-SzGXedj8zlALTsZ3Eew9GZy0Ufxh5P/o3fnwZHY2bso='; default-src 'self' *.cloudfront.net *.googleapis.com fonts.gstatic.com
+    Referrer-Policy: no-referrer

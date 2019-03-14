@@ -248,3 +248,12 @@ hr {
 .navbar>.container {
     max-width: 966px !important;
 }
+.art-column {
+    position: relative;
+}
+
+.art-title {
+    color: #212121;
+    font-size:18px;
+    padding: 5px 10px 5px 10px;
+}

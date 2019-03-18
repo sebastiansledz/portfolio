@@ -51,6 +51,12 @@ body {
 .pb30 {
     padding-bottom:30px;
 }
+.pb35 {
+    padding-bottom:35px;
+}
+.pb40 {
+    padding-bottom:40px;
+}
 .span-icon img{
     max-width: 40px;
     transform: translateY(10px);
@@ -115,7 +121,9 @@ hr {
       padding-top:20px !important;
   }
   }
-
+#hero a {
+    color:#363636;
+}
 .masonry.gutterless {
     column-gap: 0;
 }

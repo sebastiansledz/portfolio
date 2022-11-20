@@ -212,7 +212,7 @@ hr {
     margin: auto;
 }
 .wwd-kick {
-    background-color: #972441;
+    background-color: #077495;
     color: #fff !important;
 }
 .fractal-kick {
@@ -220,7 +220,7 @@ hr {
     color: #fff !important;
 }
 .doodle-kick {
-    background-color: #e46109;
+    background-color: #603e97;
     color: #fff !important;
 }
 .blog-kick {
@@ -237,24 +237,29 @@ hr {
 }
 }
 
-.kick-title {
+.ach-title {
     color:#ffffff;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.125;
 }
 
-.kick-subtitle {
+.ach-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 28px;
     color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
 }
-.kick-link {
+.ach-link {
     color: #fff !important;
     text-decoration: underline;
 }
-.kick-link:hover {
+.lead {
+    padding: 0 0 20px 0;
+}
+.ach-link:hover {
     color: #fff !important;
     text-decoration: underline;
 }

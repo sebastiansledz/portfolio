@@ -284,3 +284,19 @@ hr {
     margin: auto;
     background-color: rgba(255,255,255,0.5)
 }
+
+.image img {
+    border-radius: 10px;
+}
+
+.modal-content {
+    width: 940px;
+    }
+
+    .caption {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .caption span {
+        font-size:20px;
+    }

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal website of Sebastian Sledz - designer who codes.">
     <meta name="keywords" content="sebastian sledz personal website development design art code fractals">
-    <title>A Set Of Posters - Sebastian Sledz</title>
+    <title>Design System for eMuseumPlus - Sebastian Sledz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="shortcut icon" href="images/favicon.ico" />
 
 </head>
 
@@ -25,7 +25,8 @@
                     <img src="images/sebsledz.svg" width="112" height="28">
                 </a>
 
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -41,8 +42,8 @@
                     <a class="navbar-item" href="works.html">
                         Works
                     </a>
-                    <a class="navbar-item" href="achievements.html">
-                        Achievements
+                    <a class="navbar-item" href="skills.html">
+                        Skills
                     </a>
                     <a class="navbar-item" href="contact.html">
                         Contact
@@ -65,10 +66,10 @@
                     <div class="columns">
                         <div class="column is-three-quarters">
                             <h1 class="title mb20">
-                                A Set Of Posters
+                                Design System for eMuseumPlus
                             </h1>
                             <p class="subtitle">
-                                Graphic Design / Art
+                                UI/UX Design
                             </p>
                         </div>
                     </div>
@@ -77,9 +78,9 @@
             <div class="columns mb10">
                 <div class="column is-10 is-offset-1 art-column">
                     <figure class="image">
-                        <img src="images/works/picasso-m.jpg">
+                        <img src="images/works/figma-m.png">
                     </figure>
-                    <div class="art-title">Son of a Pablo</div>
+                    <div class="art-title">Design components for eMuseumPlus</div>
                 </div>
             </div>
             <div class="columns mb10">
@@ -87,59 +88,74 @@
                     <div class="columns">
                         <div class="column art-column">
                             <figure class="image">
-                                <img src="images/works/kim-01.jpg">
+                                <a class="js-modal-trigger" data-target="modal-dhabi"><img src="images/works/louvre.png"></a>
                             </figure>
-                            <div class="art-title">Some One</div>
+                            <div class="art-title"><a href="https://lad.test.zetcom.net/en/" target="_blank">Louvre Abu
+                                    Dhabi →</a></div>
                         </div>
                         <div class="column art-column">
                             <figure class="image">
-                                <img src="images/works/step-01.jpg">
+                                <a class="js-modal-trigger" data-target="modal-gurlit"><img src="images/works/gurlit.png"></a>
                             </figure>
-                            <div class="art-title">The First Step</div>
-                        </div>
-                        <div class="column art-column">
-                            <figure class="image">
-                                <img src="images/works/smar-01.jpg">
-                            </figure>
-                            <div class="art-title">Greese</div>
+                            <div class="art-title"><a href="https://gurlitt.kunstmuseumbern.ch/en/" target="_blank">The
+                                    Gurlitt Estate →</a></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="columns mb30">
-                    <div class="column is-10 is-offset-1">
-                        <div class="columns">
-                            <div class="column art-column">
-                                <figure class="image">
-                                    <img src="images/works/lips-01.jpg">
-                                </figure>
-                                <div class="art-title">Lipsss...</div>
-                            </div>
-                            <div class="column art-column">
-                                <figure class="image">
-                                    <img src="images/works/intro-01.jpg">
-                                </figure>
-                                <div class="art-title">Introspection</div>
-                            </div>
+                <div class="column is-10 is-offset-1">
+                    <div class="columns">
+                        <div class="column art-column">
+                            <figure class="image">
+                                <a class="js-modal-trigger" data-target="modal-zurich"><img src="images/works/zurich.png"></a>
+                            </figure>
+                            <div class="art-title"><a href="https://bdzh.zetcom.net/de/" target="_blank">Art Collection
+                                    Canton Zurich →</a></div>
+                        </div>
+                        <div class="column art-column">
+                            <figure class="image">
+                                <a class="js-modal-trigger" data-target="modal-kbsz"><img src="images/works/kbsz.png"></a>
+                            </figure>
+                            <div class="art-title"><a href="https://kbsz.zetcom.net/de/" target="_blank">City of Zurich
+                                    →</a></div>
                         </div>
                     </div>
                 </div>
+            </div>
             <div class="columns">
                 <div class="column is-10 is-offset-1">
                     <div class="columns">
                         <div class="column">
                             <h1 class="title">About project</h1>
-                            <p>I used various techniques to create these graphics. First one, called <i>Son of a Pablo</i> is an acrylic 50x70cm painting, the next one - <i>Lipsss...</i> I made in Photoshop using my pen tablet, <i>Some One</i> I did entirely in Illustrator. I like to play with typography, metaphors and hidden messages. I consider it kind of a poetry. 
-
-                            I love to try new tools. I have a few I know pretty well and a list of those to be yet explored. New cyber territories never stop growing.
+                            <p class="mb30">
+                                I was hired by zetcom to lead a new project - build a new eMuseumPlus application from
+                                scratch. A standard product that can serve existing and new clients as a showcase of
+                                their art collections online. As a creative developer I designed a very first Figma
+                                prototype of the new eMuseumPlus. This way I introduced Figma as a tool to the
+                                company. From
+                                this point it was widely used by project managers, clients and developers.
+                            </p>
+                            <p class="lead">
+                                Fresh and funky layout that clients love and developers
+                                understand. To gain reliability I developed a whole design system with reusable
+                                components, based on Tailwind CSS principles.
+                            </p>
+                            <p class="lead">
+                                Till December 2022 I created more than 30 Figmas for variety of clients - museums, art
+                                galleries, city councils and even the European Parliament.
+                                Some of them are already coded and you may
+                                see examples on this page.
                             </p>
                         </div>
                         <div class="column art-column">
-                                <figure class="image">
-                                        <img src="images/works/brood-01.jpg">
-                                    </figure>
-                                    <div class="art-title">Brood</div>
-                            </div>
+                            <figure class="image">
+                                <a class="js-modal-trigger" data-target="modal-fedier"><img
+                                        src="images/works/fedier.png"></a>
+                            </figure>
+                            <div class="art-title"><a href="https://fedier.zetcom.net/de/collection/"
+                                    target="_blank">Franz Fedier →</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -161,14 +177,14 @@
                         <div class="level-left">
                             <div class="level-item">
                                 <a class="bd-prev-next-bis-previous" href="project-1.html" title="IT Not For Profit">
-                                    ← IT Not For Profit
+                                    ← eMuseumPlus for zetcom
                                 </a>
                             </div>
                         </div>
                         <div class="level-right">
                             <div class="leve-item">
                                 <a class="bd-prev-next-bis-next" href="project-3.html" title="Kayman Kayaks">
-                                        Kayman Kayaks →
+                                    eMuseumPlus for Ithra →
                                 </a>
                             </div>
                         </div>
@@ -179,35 +195,99 @@
         </div>
     </section>
 
-
     <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    Made with
-                    <img src="images/with-love.svg" class="with-love"> by Sebastian Sledz.
-                </p>
-                <p class="social-icons">
+        <div class="content has-text-centered">
+            <p>
+                Made with
+                <img src="images/with-love.svg" class="with-love"> by Sebastian Sledz.
+            </p>
+            <p class="social-icons">
                 <a href="https://github.com/sebastiansledz" target="_blank" title="GitHub">
-                <span class="icon has-text-danger">
-                    <i class="fab fa-lg fa-github"></i>
-                </span>
+                    <span class="icon has-text-danger">
+                        <i class="fab fa-lg fa-github"></i>
+                    </span>
                 </a>
-                    <a href="https://www.behance.net/sebastiansledz" target="_blank" title="Behance">
+                <a href="https://www.behance.net/sebastiansledz" target="_blank" title="Behance">
                     <span class="icon has-text-link">
                         <i class="fab fa-lg fa-behance"></i>
                     </span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/greenherring/" target="_blank" title="Linkedin">
+                </a>
+                <a href="https://www.linkedin.com/in/greenherring/" target="_blank" title="Linkedin">
                     <span class="icon has-text-primary">
                         <i class="fab fa-lg fa-linkedin"></i>
                     </span>
-                    </a>
-                </p>
-            </div>
-        </footer>
+                </a>
+            </p>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 
+    <div id="modal-fedier" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="images/works/fedier.png">
+                </figure>
+            </div>
+        </div>
+
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="modal-gurlit" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="images/works/gurlit.png">
+                </figure>
+            </div>
+        </div>
+
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="modal-dhabi" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="images/works/louvre.png">
+                </figure>
+            </div>
+        </div>
+
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="modal-kbsz" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="images/works/kbsz.png">
+                </figure>
+            </div>
+        </div>
+
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="modal-zurich" class="modal">
+        <div class="modal-background"></div>
+
+        <div class="modal-content">
+            <div class="box">
+                <figure class="image">
+                    <img src="images/works/zurich.png">
+                </figure>
+            </div>
+        </div>
+
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
 </body>
 
 </html>

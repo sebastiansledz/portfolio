@@ -231,6 +231,11 @@ hr {
     background-color: #10936c;
     color: #fff !important;
 }
+
+.graphics-kick {
+    background-color: #70326a;
+    color: #fff !important;
+}
 .doodle-kick .columns, .wwd-kick .columns, .blog-kick .columns, .fractal-kick .columns {
     padding: 0 20px;
 }

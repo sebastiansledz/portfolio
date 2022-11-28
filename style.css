@@ -300,7 +300,9 @@ hr {
     .caption {
         font-size: 12px;
         margin-bottom: 20px;
+        margin-top:10px;
     }
     .caption span {
         font-size:20px;
+        line-height: 1;
     }
